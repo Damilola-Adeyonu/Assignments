@@ -1,10 +1,12 @@
 
-# Week 3
+# Week 5
 
-Zuri X I4G training task on Portfolio-website and Registration page 
+A task on pushing week3-week4 tasks to a Github repo. 
 
 ### About me 
-I am Damilola Adeyonu. A student and an upcoming web developer.
+My name is Damilola Adeyonu. A student and a beginner in frontend development.
 
+### Skills
+HTML and CSS
 
 
