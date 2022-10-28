@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/25d42b44e0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="register-form">
+
+
+    <h1> Register </h1>
+
+    <form action="./sucessregister.html" method="post">
+
+
+      <p>Firstname:</p>
+      <input type="text" name="firstname" placeholder="Firstname" required>
+      <p>Lastname:</p>
+      <input type="text" placeholder="Lastname" name="lastname" required> <br>
+      <p>Phone number:</p>
+      <input type="phonenumber" placeholder="Phone number" name="phonenumber" required> <br>
+      <p>Email:</p>
+      <input type="email" placeholder="Email" name="Email" required>
+
+
+
+      <p> Password:</p>
+      <input type="password" name="password" placeholder=" Password" required>
+      <p> Confirm Password:</p>
+      <input type="password" name="confirmpassword" placeholder=" Confirm Password">
+
+      <br> <br>
+      <!--For drop down menu-->
+      <div class="sel">
+        <label for="sex"> Select your gender:</label> <br> <br>
+        <select name="sex" id="sex">
+          <option value="Female">Female</option>
+          <option value="Male" selected> Male</option>
+          <option value="Others">Others</option>
+        </select> <br> <br>
+        <!-- Date Of Birth-->
+
+        <label for="Birthday"> D.O.B:</label> <br> <br>
+
+        <input type="date" id="Birthday" name="Birthday" required> <br> <br>
+
+        <!-- Fav color-->
+
+        <label for="Favcolor" required> Pick your Favorite Color: </label> <br> <br>
+        <input style="width:30%; padding:5px 5px;" type="color" id="Favcolor" name="Favcolor" required>
+      </div>
+      <br> <br>
+      <div style="text-align:center;">
+        <button type="submit">Register</button>
+      </div>
+      <br>
+      Already have an account? <a href="./login.html">Sign in</a>
+
+
+  </div>
+
+</body>
+
+</html>
