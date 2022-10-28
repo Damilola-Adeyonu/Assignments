@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+  
+body{
+  background-color:hsl(0, 0%, 95%);
+ 
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+   align-items:center ;
+  justify-content: center ;
+  gap: 30px;
+  
+  
+  
+}
+section{
+  width: 50%;
+  align-items:center ;
+  justify-content: center ;
+  display: flex;
+  margin: auto;
+
+}
+ 
+
+
+.sedan{
+  background-color:  hsl(31, 77%, 52%);
+  color: white;
+  height:400px;
+  width:350px;
+  padding: 60px;
+
+  border-top-left-radius:8px;
+  border-bottom-left-radius: 8px;
+ 
+}
+.suvs{
+  background-color:hsl(184, 100%, 22%);
+  color:white;
+  height:400px;
+  width:350px;
+   padding: 60px;
+}
+.luxs{
+  background-color:hsl(179, 100%, 13%);
+  color:white;
+  height:400px;
+  width:350px;
+  padding: 60px;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+          /*h1*/
+.box h1{
+  color:hsl(0, 0%, 95%);
+  margin: 32px 0px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight:700;
+  
+}
+.box p{
+  color:hsla(0, 0%, 100%, 0.75);
+  /*font-size:20px;*/
+
+  margin-bottom: 70px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+.sedan button{
+  color:hsl(31, 77%, 52%);
+}
+.suvs button{
+ color: hsl(184, 100%, 22%);
+}
+.luxs button{
+  color: hsl(179, 100%, 13%);
+}
+button{
+  border-radius:30px;
+  padding: 10px 20px;
+  align-items: center;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+}
+
+button:hover{
+  background-color: #aaa1a1  ;
+  color: whitesmoke;
+  cursor:pointer;
+}
+
+@media screen and (max-width:1440px)
+{
+   .box{
+   padding: 50px;
+     
+
+   }
+  .box p{
+    font-size: 10px;
+  }
+    
+}
+@media screen and (max-width:770px){
+  .box{
+    padding: 60px
+  }
+  .box p{
+    font-size: 7px;
+    margin-bottom: 50px ;
+
+  }
+   
+}
+
+@media screen and (max-width:430px)
+{
+  section{
+   
+   flex-direction: column;}
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 35px;
+    width: 300px
+  }
+  .box p{
+    text-align: center;
+  }
+  .sedan{
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+  }
+  .luxs{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+  }
+}
+a{
+ font-size: 15px;
+}
